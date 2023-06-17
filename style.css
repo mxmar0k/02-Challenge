@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 16px;
+}
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: #13293d;
+    color: #fff;
+  }
+  
+  .header h1 {
+    font-size: 1.5rem;
+    background-color: rgb(65, 164, 231);
+    color: #13293d;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+    list-style: none;
+    font-size: 1rem;
+  }
+  
+  nav a {
+    color: rgb(65, 164, 231);
+    font-weight: bold;
+    text-decoration: underline;
+    margin-right: 10px;
+  }
+  
+  nav a:hover {
+    color: #fff;
+  }
+
+  .top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+ 
+.image-banner{
+    position: relative;
+    width: 100%;
+    max-height: 400px;
+    top: 10px;
+}
+ 
+.image-banner img{
+    width: 100%;
+    margin: none;
+    padding: none;
+    max-height: 400px;
+}
+ 
+#cool-text{
+    position: absolute;
+    top: 50%;
+    left: 85%;
+    color: #13293d;
+    background-color: rgb(65, 164, 231);
+    font-size: 1.5rem;
+}
+
+
+body {
+    background-color: antiquewhite;
+}
+
+/*this is the about me section*/
+
+.about-me{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;;
+    align-items: center;
+}
+
+.about-me h2{
+    margin-left: 10%;
+    padding: 1%;
+    border: solid 0.3em transparent;
+    border-right-color:#13293d;
+    border-radius: 0px;
+    text-align: end;
+    font-size: 2rem;
+}
+
+
+.about-me p{
+    margin-left: 50px;
+    padding: 1%;
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*this is the contact me section*/
+
+.contact-me{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;;
+    align-items: center;
+}
+
+.contact-me h2{
+    margin-left: 7%;
+    padding: 1%;
+    border: solid 0.3em transparent;
+    border-right-color:#13293d;
+    border-radius: 0px;
+    text-align: end;
+    font-size: 2rem;
+}
+
+
+.contact-me ul{
+    margin-left: 50px;
+    padding: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.contact-me a{
+   margin: 10px;
+   padding: 1%;
+   color:#13293d;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-right: 10px;
+    font-size: 1.3rem;
+    width: 100%;
+}
