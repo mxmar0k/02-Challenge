@@ -4,6 +4,10 @@
     font-size: 16px;
 }
 
+/*I used border box, tho Im not sure what it really does
+various font families
+and the standart font size to use rems*/
+
 
 header {
     display: flex;
@@ -70,12 +74,36 @@ header {
     font-size: 1rem;
 }
 
+/* I gave the header flex and column to put the image right under the nav section, the nav section is also flexed and with space. I used margin to space the list items because just as I am writing this lines I realizaed I could've used gap, but anyways it works
+
+the image is pretty big and magestic, so I had to constrain it, like my desire to sleep right now.
+
+I used relatve position and absolute to the parent image and the text "too angry to die" so that I could put it inside the image and gave it specific movement to the right.
+
+
+*/
+
+
+
+
 
 body {
-    background-color: antiquewhite;
+    background-color: rgb(170, 179, 187);
 }
 
-/*this is the about me section*/
+/*this is the about me section, this is where the fun starts
+
+I used flex row to all of the sections to put them right next to each other, I mean for example the h2 and the p in horizontal mode.
+
+I used only the right border on the h2 in all sections to make the line like the sample image
+
+I really don't know if this is what you wanted, but if not, please advice, because I really wanted to cry.
+
+
+
+
+
+*/
 
 .about-me{
     display: flex;
@@ -103,7 +131,23 @@ body {
 
 
 
-/*this is the about me section*/
+/*this is the image section
+
+I created like a million classes in this section, to do what i did in the last section, but now instead of a p element, I added 5 images.
+
+The images are within a div with flex and row. I made the first image larger than the other 4, as close to the mock up image.
+
+There is a div to every image, in order to put some text inside a box in the middle of them.
+
+The images have diffenrent hover effect, for example the first has a blur, but when you hover it it eliminates the blur. The other images have a zoom with overflow: hidden in the container. If you zoom just right, you can see my tears, because this section was very difficult.
+
+I did not made the images responsive, because they made some weird things as I downsized my browser and with it my hopes, so I put a @media query at the end, which I really think it gives more control.
+
+The cool lines are just like the ones in the "too angry to die", just located them diffenrently within the image.
+
+
+
+*/
 
 .work{
     display: flex;
@@ -181,7 +225,7 @@ body {
 }
 
 
-/*This is the hoover for the image section*/
+/*This is the hoover for the image section, like i said i used blur efects an zoom efects */
 
 .big-image:hover{
     border-color: rgb(199, 6, 6);
@@ -197,7 +241,7 @@ body {
 
 
 
-/*this is the contact me section*/
+/*this is the contact me section, this is much like the header, so i think it does not need any more explanation*/
 
 .contact-me{
     display: flex;
@@ -281,7 +325,7 @@ body {
      
     }
 
-   /*media queries for iphone 12 pro*/ 
+   /*media queries for iphone 12 pro: This seemed like a good idea, but Im starting to realize that there are a lot of screen sizes, so I was wondering if poeple actually make media queries for every size*/ 
 
    @media screen and (max-width: 390px) {
 
@@ -356,3 +400,6 @@ body {
         }    
          
         }
+
+
+ /*with a lot of pain and sweat (because we're in a heatwave in mexico) it seems like the page is actually responsive*/       

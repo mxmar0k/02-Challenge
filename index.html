@@ -12,31 +12,49 @@
             <h1>Guts (Berserk)</h1>
             <nav>
                 <ul>
-                    <li><a href="#">About Me</a></li>
-                    <li><a href="#">Work</a></li>
-                    <li><a href="#">Contact Me</a></li>
-                    <li><a href="#">Resume</a></li>
+                    <li><a href="#about-me-id">About Me</a></li>
+                    <li><a href="#work-id">Work</a></li>
+                    <li><a href="#contact-me-id">Contact Me</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/Guts_(Berserk)">Resume</a></li>
                 </ul>
             </nav>
         </div>
-    
+ 
         <div class="image-banner">
             <img src="./Images/wallhaven-wqv8k7.png" alt="Guts wearing cool wolf armor">
             <h2 id="cool-text">Too angry to die</h2>
         </div>
   </header>
 
+   <!-- 1.- the structure here is quite straightforward, i used a div in the header to englobe the h1 and nav elements as one
+
+        2. I made sections with about me, work, contact info, I did not made a resume, because i dont have one, so I used a wikipedia page link to Gut's bio. 
+
+        3. the about me is just an h2 and p, so it is very simple.
+
+        4. the tricky part was the image section: i used a h2 and a div, an inside the div, 5 more divs for the images and the text within. 
+
+        5. The contact me is really like the header: h2 and a list.
+
+        6. I made the sections like this to use it for the css as best as I understand it.
+
+        7. I chose not to add a footer section, because frankly sometimes it looks weird. So I hope i dont get less points for not including it, insert: sad face. 
+
+
+    -->
+
+
   <main>
 
     <section>
-        <article class="about-me">
+        <article class="about-me" id="about-me-id">
             <h2>About Me</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus viverra tortor a dictum varius. Etiam eget enim venenatis, efficitur eros sit amet, tincidunt eros. Aliquam id tellus lectus. Aliquam laoreet mauris sed nibh dapibus, eu pulvinar purus porttitor. Donec condimentum, augue in convallis sagittis, orci mauris egestas massa, non lacinia lectus ex et erat. Suspendisse sed lectus eu dui facilisis pretium. Etiam est massa, mollis vehicula dolor ac, ultricies tempor justo.</p>
         </article>
     </section>
 
     <section>
-        <article class="work">
+        <article class="work" id="work-id">
             <h2>Work</h2>
             <div class="work-images">
                 <div class="container">
@@ -64,7 +82,7 @@
     </section>
 
     <section>
-        <article class="contact-me">
+        <article class="contact-me" id="contact-me-id">
             <h2>Contact Me</h2>
             <ul>
                 <li><a>#000000000</a></li>
