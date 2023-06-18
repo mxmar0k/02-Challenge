@@ -10,7 +10,7 @@ header {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 1%;
+    padding: 0%;
     background-color: #13293d;
     color: #fff;
   }
@@ -24,7 +24,6 @@ header {
   nav ul {
     display: flex;
     justify-content: space-between;
-    min-width: 300px;
     list-style: none;
     font-size: 1rem;
   }
@@ -65,10 +64,10 @@ header {
 #cool-text{
     position: absolute;
     top: 50%;
-    left: 85%;
+    left: 90%;
     color: #13293d;
     background-color: rgb(65, 164, 231);
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 
@@ -241,4 +240,119 @@ body {
 }
 
 
-/*Media queries*/
+/*Media queries for ipad mini, because I have one hahaha, seems like a good parameter*/
+
+
+@media screen and (max-width: 900px) {
+
+
+
+.about-me h2 {
+    font-size: 1rem;
+    
+}
+
+.work h2 {
+    font-size: 1rem;
+}
+
+.contact-me h2 {
+    font-size: 1rem;
+    margin-left: 8%;
+}
+
+    .big-image {
+        width:  400px;
+        height: 300px;
+    }
+
+        
+        .big-image {
+            width:  270px;
+            height: 150px;}
+        .small-image {
+                width:  270px;
+                height: 150px;
+        }
+
+    .contact-me a{
+        font-size: .8rem;
+    }    
+     
+    }
+
+   /*media queries for iphone 12 pro*/ 
+
+   @media screen and (max-width: 390px) {
+
+.header h1{
+    font-size: 1rem;
+}
+
+.header a{
+    font-size: .5rem;
+}
+
+#cool-text{
+    font-size: .5rem;
+    left: 80%;
+}
+
+    .about-me h2 {
+        font-size: .8rem;
+        margin: 3%;
+        
+    }
+
+    .about-me p {
+        font-size: .8rem;
+        
+    }
+    
+    
+    .work h2 {
+        font-size: .8rem;
+        margin: 5%;
+    }
+    
+    .contact-me h2 {
+        font-size: .8rem;
+        margin: 1%;
+    }
+    
+        .big-image {
+            width:  400px;
+            height: 300px;
+        }
+    
+            
+            .big-image {
+                width:  270px;
+                height: 150px;}
+            .small-image {
+                    width:  270px;
+                    height: 150px;
+            }
+
+            #cool-line-zero{
+                font-size: .5rem;
+                width: fit-content;
+                top: 60%;
+                left: -6%;
+                
+            }
+            
+            #cool-line{
+                font-size: .5rem;
+                width: fit-content;
+                top: 60%;
+                left: -6%;
+                
+            }
+
+    
+        .contact-me a{
+            font-size: .5rem;
+        }    
+         
+        }
